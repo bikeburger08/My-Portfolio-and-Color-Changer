@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio ATM</title>
+    <style>
+        h1 {text-align: center;}
+        p {text-align: center;}
+        img {
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            border-radius: 50%;
+        }
+        body {
+            background-image: url('white paper.jpg');
+            background-repeat: no-repeat;
+            background-size: 1700px 900px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            text-align: center;
+            font-family: Verdana;
+        }
+        p {
+            max-width: 700px;
+            margin: 0 auto;
+            line-height: 1.6;
+        }
+        h3 {
+            max-width: 700px;
+            margin: 0 auto;
+            line-height: 1.2;
+        }
+        a {
+            color: #4CAF50;
+            text-decoration: none;
+            font-size: 18px;
+            margin: 10px 0;
+            padding: 10px 20px;
+            border: 2px solid #4CAF50;
+            border-radius: 5px;
+            transition: background-color 0.3s ease;
+        }
+        a:hover {
+            background-color: #4CAF50;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <img src="2by2 me.png" width="200" height="200" class="center">
+    <br>
+    <h1 style="font-family:verdana">RYLE REYMOND F. MULET</h1>
+    <h3>"PROGRAMMER"</h3>
+    <br>
+    <h3>Email: rylereymondmulet@gmail.com</h3>
+    <h3>Contact No: 09694803378</h3>
+    <br>
+    <h2>About me:</h2>
+    <p style="font-family:verdana">Hi! I'm Ryle Reymond F. Mulet, a programmer. Wants to learn more about coding and building
+        cool projects. I'm currently exploring HTML and PYTHON, with a goal
+        to grow my skills and create meaningful experiences. I enjoy tackling new challenges and am always
+        eager to learn more. Let's connect and build something great together.</p>
+    <br>
+</body>
+</html>
+
+<style>
+  .big-space {
+    margin-bottom: 300px; /* Adjust size as needed */
+  }
+</style>
+<div class="big-space"></div>
+<div></div>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ts my simple color changer</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      text-align: center;
+      margin-top: 100px;  
+      background-color: #f5f5f5;
+    }
+
+    #colorBox {
+      width: 200px;
+      height: 200px;
+      background-color: whitesmoke; /* Default color */
+      margin: 20px auto;
+      border-radius: 10px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.2);
+      transition: background-color 0.3s ease;
+    }
+
+    button {
+      padding: 10px 20px;
+      font-size: 16px;
+      margin: 5px;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      color: white;
+    }
+
+    #changeBtn {
+      background-color: #4CAF50;
+    }
+
+    #changeBtn:hover {
+      background-color: #45a049;
+    }
+
+    #resetBtn {
+      background-color: #f44336;
+    }
+
+    #resetBtn:hover {
+      background-color: #d32f2f;
+    }
+  </style>
+</head>
+<body>
+
+  <h1>My Color Changer</h1>
+
+  <div id="colorBox"></div>
+  <button id="changeBtn" onclick="changeColor()">Change Color</button>
+  <button id="resetBtn" onclick="resetColor()">Back to Default</button>
+
+  <script>
+    const box = document.getElementById('colorBox');
+    const defaultColor = 'whitesmoke';
+
+    function changeColor() {
+      const randomColor = '#' + Math.floor(Math.random() * 16777215).toString(16);
+      box.style.backgroundColor = randomColor;
+    }
+
+    function resetColor() {
+      box.style.backgroundColor = defaultColor;
+    }
+  </script>
+
+  <style>
+  .big-space {
+    margin-bottom: 250px; /* Adjust size as needed */
+  }
+</style>
+<div class="big-space"></div>
+<div></div>
+
+</body>
+</html>
+
